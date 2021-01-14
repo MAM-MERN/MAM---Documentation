@@ -19,69 +19,40 @@ Week starting 11 December: Finalize documentation ready for submission
 
 ### Server
 
-**aws-sdk:** Amazon web services software development kit for javascript. Allows developers to connect to AWS services through javascript objects.
-
-**connect-mongo:** Session store for MongoDB.
-
-**cors:** Enables CORS in an Express app.
-
-**dotenv:** Loads environment variables into process.env.
-
-**ejs:** Generates HTML markup with embedded javascript.
-
-**express:** Web application framework for Node.
-
-**express-fileupload:** Express middleware for uploading files.
-
-**express-session:** Session middleware for Express.
-
-**mongoose:** Object Data Modeling library for MongoDB and Node.
-
-**mongoose-bcrypt:** A mongoose plugin for encrypting fields with bcrypt.
-
-**passport:** Authentication middleware for Express/Node.
-
-**passport-local:** Passport strategy for authenticating with a username and password.
-
-**chai:** An assertion library for Node.
-
-**mocha:** Javascript testing framework.
-
-**nodemon:** Automatically restarts a Node application when changes are made.
+**aws-sdk:** Amazon web services software development kit for javascript. Allows developers to connect to AWS services through javascript objects.<br>
+**connect-mongo:** Session store for MongoDB.<br>
+**cors:** Enables CORS in an Express app.<br>
+**dotenv:** Loads environment variables into process.env.<br>
+**ejs:** Generates HTML markup with embedded javascript.<br>
+**express:** Web application framework for Node.<br>
+**express-fileupload:** Express middleware for uploading files.<br>
+**express-session:** Session middleware for Express.<br>
+**mongoose:** Object Data Modeling library for MongoDB and Node.<br>
+**mongoose-bcrypt:** A mongoose plugin for encrypting fields with bcrypt.<br>
+**passport:** Authentication middleware for Express/Node.<br>
+**passport-local:** Passport strategy for authenticating with a username and password.<br>
+**chai:** An assertion library for Node.<br>
+**mocha:** Javascript testing framework.<br>
+**nodemon:** Automatically restarts a Node application when changes are made.<br>
 
 ### Client
 
-**@material-ui/core:** A React UI framework comprising components, styles, themes and icons.
-
-**@material-ui/icons:** Material-UI icons as React components.
-
-**@material-ui/lab:** Material-UI components not available in core.
-
-**@react-google-maps/api:** React components wrapping the Google maps Javascript API.
-
-**@testing-library/jest-dom:** Custom Jest matchers for testing the DOM.
-
-**@testing-library/react:** React component testing.
-
-**@testing-library/user-event:** Simulates user interaction with the browser for testing purposes.
-
-**axios:** Promise based HTTP client for the browser and Node.
-
-**fontsource-roboto:** Self-host the 'Roboto' font.
-
-**google-maps-react:** A Google Map React component library.
-
-**react:** A Javascript library for building user interfaces.
-
-**react-dom:** Renders React components in the DOM.
-
-**react-geocode:** Transforms a location into it's longitude and latitude coordinates.
-
-**react-router-dom:** DOM bindings for React Router.
-
-**react-scripts:** Create React App scripts and configuration.
-
-**web-vitals:** Library for measuring all the Web Vitals metrics.
+**@material-ui/core:** A React UI framework comprising components, styles, themes and icons.<br>
+**@material-ui/icons:** Material-UI icons as React components.<br>
+**@material-ui/lab:** Material-UI components not available in core.<br>
+**@react-google-maps/api:** React components wrapping the Google maps Javascript API.<br>
+**@testing-library/jest-dom:** Custom Jest matchers for testing the DOM.<br>
+**@testing-library/react:** React component testing.<br>
+**@testing-library/user-event:** Simulates user interaction with the browser for testing purposes.<br>
+**axios:** Promise based HTTP client for the browser and Node.<br>
+**fontsource-roboto:** Self-host the 'Roboto' font.<br>
+**google-maps-react:** A Google Map React component library.<br>
+**react:** A Javascript library for building user interfaces.<br>
+**react-dom:** Renders React components in the DOM.<br>
+**react-geocode:** Transforms a location into it's longitude and latitude coordinates.<br>
+**react-router-dom:** DOM bindings for React Router.<br>
+**react-scripts:** Create React App scripts and configuration.<br>
+**web-vitals:** Library for measuring all the Web Vitals metrics.<br>
 
 ## Sprints
 

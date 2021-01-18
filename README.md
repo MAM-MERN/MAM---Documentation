@@ -134,8 +134,10 @@ App restricts access to add/edit/delete routes if user is unauthenticated |
 Image loads when pin is clicked |
 Shows errors when admin forms aren't filled in correctly | 
 
+---
+## Part A - Documentation
 <details>
-  <summary>Part A - Documentation</summary>
+  <summary>Click to Expand</summary>
 
   # T3A2-A - MERN Application (Part A)
 A group project between Alisa Blakeney and Tom Dunstan

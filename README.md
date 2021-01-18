@@ -106,7 +106,7 @@ Week starting 11 January: Finalize documentation ready for submission
 <details>
   <summary>11/1/21 - 19/1/21</summary>
 
-</details><br>
+</details>
 
 ---
 ## Manual Testing

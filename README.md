@@ -136,8 +136,8 @@ Shows errors when admin forms aren't filled in correctly |
 
 ## User Testing - Development/Production
 
-<video controls>
-<source src="./docs/videos/map-search.webm type="video/webm">
+<video width="320" height="240" controls>
+<source src="./docs/videos/map-search.webm" type="video/webm">
 </video>
 
 ---

@@ -134,6 +134,12 @@ App restricts access to add/edit/delete routes if user is unauthenticated |
 Image loads when pin is clicked |
 Shows errors when admin forms aren't filled in correctly | 
 
+## User Testing - Development/Production
+
+<video controls>
+<source src="./docs/videos/map-search.webm type="video/webm">
+</video>
+
 ---
 ## Part A - Documentation
 <details>

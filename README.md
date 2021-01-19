@@ -358,7 +358,6 @@ I want to be able to delete artworks I have added, so that I may correct any dat
 I want to be able to log out, to ensure that no-one else using my computer can inadvertently add, delete or edit artworks | When I click log out, I am redirected to the login page | As expected
 I want to be able to log out, to ensure that no-one else using my computer can inadvertently add, delete or edit artworks | I am unable to access the account page if I am not logged in | As expected
 Deny access if username/password is incorrect | When I  enter the incorrect username and password, I receive an error message | As expected
-break | break
 I want to be able to view all artworks on a map, so I can see their distribution in the City | When I am in the map view, all artwork locations are displayed with push pins on a map | As expected
 I want to be able to view all artworks on a map, so I can see their distribution in the City | When I am in the map view, all artwork locations are displayed with push pins on a map | As expected
 I want to view all artworks in a complete list, so I can browse all artworks | When I am in the list view, I can see all artworks as a list | Minor bug: this view is only available to logged in users at present - to add to public view if time
@@ -369,7 +368,6 @@ I want to know how long it will take me to navigate to the artwork | I can wayfi
 I want to be able to search for an artwork, based on a keyword, so that I can refine the list of artworks I wish to see | When I enter a search term in the search bar, the map shows the artwork with that term in the title | As expected
 I want to know who made the application I am using, and why, so I can be assured of its integrity and use value | When I hit the about button, I am shown Tom and Alisa's name | As expected
 I want to be able to contact the makers of the app, so that I can congratulate them on their fine work | When I hit the about button, I am shown Tom and Alisa's contact details | Not implemented in submitted version due to privacy concerns
-break | break
 Map correctly shows current location | To fix
 App restricts access to add/edit/delete routes if user is unauthenticated | To fix
 Image loads when pin is clicked | As expected

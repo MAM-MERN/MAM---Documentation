@@ -12,12 +12,16 @@ https://github.com/dunerztd/MAM-Server
 **Alisa's Working Fork:**
 https://github.com/alisay/MAM-Client
 
+**Admin Account:**   
+username: admin   
+password: 123456
+
 ---
 ## Planning
 
 We decided to split the application development into Backend and Frontend with Tom and Alisa handling them respectively. Alisa is stronger in react than Tom and since Tom handled the ADD and DFD and Alisa designed the wireframes in Part A, this pathway made the most sense.
 
-Sprints will be weekly in duration with a standup on Mondays deciding the tasks to completed for the week. We will recovene at the end of the week to update each other on our progress. Informal communication will be ongoing throughout the week.
+Sprints will be weekly in duration with a standup on Mondays deciding the tasks to completed for the week. We will reconvene at the end of the week to update each other on our progress. Informal communication will be ongoing throughout the week.
 
 All tasks will be added to Trello as tickets with labels indicating person to complete the task, whether it's server or client and a difficulty rating. The ratings are 1-Easy, 2-Medium, 3-Hard, 5-Very Hard, 8-Needs Breaking Down, 11-Needs Break Down.
 
@@ -73,7 +77,11 @@ Week starting 11 January: Finalize documentation ready for submission
 **web-vitals** | Library for measuring all the Web Vitals metrics
 
 ---
-## Sprints
+# Source Control
+Git was employed as source control. A separate GitHub account, purely for the project was made and both members were given access. The MAM account had three repositories, one for the client, server and documentation. Each member forked this repo to their personal GitHub and they primarily worked from this. Once a feature was completed, pull requests were made to the MAM repo where the other member could review their code and merge.
+
+# project management
+# task delegation
 
 <details>
   <summary>14/12/20 - 20/12/20</summary>
@@ -105,10 +113,26 @@ Week starting 11 January: Finalize documentation ready for submission
 
 <details>
   <summary>11/1/21 - 19/1/21</summary>
-
+    <img src="./docs/trello_screenshots/Screen_Shot-13.jpg">
+    <img src="./docs/trello_screenshots/Screen_Shot-14.jpg">
+    <img src="./docs/trello_screenshots/Screen_Shot-15.jpg"> 
 </details>
 
+
+
+
 ---
+## Testing
+
+Informal testing was done during and at the end of each completed function by both members. A combination of user testing and Postman were used to achieve this.
+
+Automated tests were written for the server and a screenshot can be seen below. Unit tests for the artworks CRUD functionality and integration tests for the artworks routes, controllers and database queries. Mocha was the testing framework and chai/expect for the assertion libraries. Chai-HTTP for http integration tests.
+
+<details>
+  <summary>Automated Testing Screen Shot</summary>
+    <img src="./docs/trello_screenshots/Mocha-test.png">
+</details>
+
 ## Manual Testing
 
 **Test**|**Expected Outcome**|**Actual Outcome**
@@ -136,9 +160,26 @@ Shows errors when admin forms aren't filled in correctly |
 
 ## User Testing - Development/Production
 
-<video width="320" height="240" controls>
-<source src="./docs/videos/map-search.webm" type="video/webm">
-</video>
+### Map and Search
+<a href="docs/videos/map-search.webm">Video</a>   
+Video shows map with clickable artwork pins. Basic map functions such as zoom in/out and satellite/map display. Pins are clicked to show artwork details and image.
+The search box finds an image by artwork title and brings up the same information as if the pin was clicked.
+
+### Admin Login/Logout and Dashboard
+<a href="docs/videos/admin-login-dashboard-logout.webm">Video</a>   
+Video shows login/logout procedure for the admin account. Once logged in, the admin dashboard displays a list of all artworks on the map with buttons to add/edit or delete a selected artwork. The video also shows the admin navbar menu.
+
+### Admin Add New Artwork
+<a href="docs/videos/admin-add-artwork.webm">Video</a>   
+Video shows procedure to add a new artwork to the map. Admin fills out a form with all required details including attaching an image. Returning to the map view shows the new artwork entry.
+
+### Admin Edit an Artwork
+<a href="docs/videos/admin-edit-artwork.webm">Video</a>   
+Video shows procedure to edit an artwork. The edited artwork is shown however it makes a new entry instead of editing and leaves the original still in the database.
+
+### Admin Delete an Artwork
+<a href="docs/videos/admin-delete-artwork.webm">Video</a>   
+Video shows deleting of an artwork. Returning to the map shows the artwork is no longer displayed.
 
 ---
 ## Part A - Documentation

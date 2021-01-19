@@ -1,7 +1,7 @@
 # MAM---Documentation
 
 **Deployed site:**
-https://mammogrammo.netlify.app/
+https://mam-mern.netlify.app/
 
 **Official Repo:**
 https://github.com/MAM-MERN

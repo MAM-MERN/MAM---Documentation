@@ -1,7 +1,7 @@
 # MAM---Documentation
 
 **Deployed site:**
-https://mammogrammo.netlify.app/
+https://mam-mern.netlify.app/
 
 **Official Repo:**
 https://github.com/MAM-MERN
@@ -276,11 +276,14 @@ Week starting 11 January: Finalize documentation ready for submission
 **web-vitals** | Library for measuring all the Web Vitals metrics
 
 ---
-# Source Control
-Git was employed as source control. A separate GitHub account, purely for the project was made and both members were given access. The MAM account had three repositories, one for the client, server and documentation. Each member forked this repo to their personal GitHub and they primarily worked from this. Once a feature was completed, pull requests were made to the MAM repo where the other member could review their code and merge.
+## Source Control
+Git was employed as source control and a forking workflow was setup. A separate GitHub account, purely for the project was made and both members were given access. The MAM account had three repositories, one for the client, server and documentation. Each member forked this repo to their personal GitHub and they primarily worked from this. Once a feature was completed, pull requests were made to the MAM repo where the other member could review their code and merge.
 
-# project management
-# task delegation
+## Project Management and Task Delegation
+
+We worked primarily independently with Tom completing the back-end and Alisa the front-end. Once the shape of the database was worked out, we each constructed our piece of the application to this and connected them up at the end. Trello was used for project management and ticket labels indicating the member responsible, whether it was server/client and its difficulty were followed. Git commits corresponding with task development were adhered to as much as possible. Trello screen shots are below.
+
+While in class we were in regular contact through slack and class conference updating our progress and sharing each others desktop to explain things clearer when need be. In the holiday period, communication was informal with updates and questions through Slack.
 
 <details>
   <summary>14/12/20 - 20/12/20</summary>
@@ -330,9 +333,12 @@ Automated tests were written for the server and a screenshot can be seen below. 
 <details>
   <summary>Automated Testing Screen Shot</summary>
     <img src="./docs/trello_screenshots/Mocha-test.png">
-</details>
+</details><br>
 
-## Manual Testing
+The deployed website was manually tested and the results were tabled.
+
+There was no client for this project. However user testing was achieved by taking videos of all the applications functionality.
+### Manual Testing
 
 **Test**|**Expected Outcome**|**Actual Outcome**
 :-----:|:-----:|:-----:
@@ -357,7 +363,7 @@ App restricts access to add/edit/delete routes if user is unauthenticated |
 Image loads when pin is clicked |
 Shows errors when admin forms aren't filled in correctly | 
 
-## User Testing - Development/Production
+### User Testing - Development/Production
 
 ### Map and Search
 <a href="docs/videos/map-search.webm">Video</a>   

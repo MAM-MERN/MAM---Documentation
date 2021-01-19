@@ -332,30 +332,40 @@ Automated tests were written for the server and a screenshot can be seen below. 
     <img src="./docs/trello_screenshots/Mocha-test.png">
 </details>
 
-## Manual Testing
+## Manual Testing (Development)
 
 **Test**|**Expected Outcome**|**Actual Outcome**
 :-----:|:-----:|:-----:
-I want to be able to log in, to ensure security is not breached |
-I want to be able to add new artworks, as they are commissioned or acquired by the City collection, to ensure information is up-to-date |
-I want to be able to edit artworks I have added, so that I may correct any data entry errors I may have made |
-I want to be able to delete artworks I have added, so that I may correct any data entry errors I may have made. |
-I want to be able to log out, to ensure that no-one else using my computer can inadvertently add, delete or edit artworks |
-Deny access if username/password is incorrect |
+I want to be able to log in, to ensure security is not breached | When I click the profile/menu icon, I have the option to login | As expected
+I want to be able to log in, to ensure security is not breached | When I click the login option, I am redirected to the login page | As expected
+I want to be able to log in, to ensure security is not breached | When I  enter the correct username and password, I am redirected to my account page | As expected
+I want to be able to add new artworks, as they are commissioned or acquired by the City collection, to ensure information is up-to-date | When I am on my account page, I can see the add artwork option | As expected
+I want to be able to add new artworks, as they are commissioned or acquired by the City collection, to ensure information is up-to-date | When I click the add artwork page, I am redirected to the add artwork form | As expected
+I want to be able to add new artworks, as they are commissioned or acquired by the City collection, to ensure information is up-to-date | If I have not filled out all the fields in the add artwork form, I cannot submit the form | As expected
+I want to be able to add new artworks, as they are commissioned or acquired by the City collection, to ensure information is up-to-date | When I submit the completed form, a new artwork is added to the database | As expected
+I want to be able to edit artworks I have added, so that I may correct any data entry errors I may have made | When I select an artwork, and click the add/edit button, I am redirected to a pre-filled form with artwork details | As expected
+I want to be able to edit artworks I have added, so that I may correct any data entry errors I may have made | When I submit the edited details, the artwork is updated in the database | Minor bug: additional artwork is created in backend on edit - to fix if time
+I want to be able to delete artworks I have added, so that I may correct any data entry errors I may have made. | When I am on my account page, I can see the delete artwork option | As expected 
+I want to be able to delete artworks I have added, so that I may correct any data entry errors I may have made. | When I select an artwork and hit the delete button, the artwork is deleted from the database | As expected 
+I want to be able to log out, to ensure that no-one else using my computer can inadvertently add, delete or edit artworks | When I click log out, I am redirected to the login page | As expected
+I want to be able to log out, to ensure that no-one else using my computer can inadvertently add, delete or edit artworks | I am unable to access the account page if I am not logged in | As expected
+Deny access if username/password is incorrect | When I  enter the incorrect username and password, I receive an error message | As expected
 break | break
-I want to be able to view all artworks on a map, so I can see their distribution in the City |
-I want to view all artworks in a complete list, so I can browse all artworks |
-I want to view details of individual artworks, so that I can learn the name of the artist, the name of the artwork, when it was made and installed, and any other interesting information |
-I want to see a photo of the artwork, so I can decide whether it is worth visiting |
-I want to know how long it will take me to navigate to the artwork |
-I want to be able to search for an artwork, based on a keyword, so that I can refine the list of artworks I wish to see |
-I want to know who made the application I am using, and why, so I can be assured of its integrity and use value |
-I want to be able to contact the makers of the app, so that I can congratulate them on their fine work |
+I want to be able to view all artworks on a map, so I can see their distribution in the City | When I am in the map view, all artwork locations are displayed with push pins on a map | As expected
+I want to be able to view all artworks on a map, so I can see their distribution in the City | When I am in the map view, all artwork locations are displayed with push pins on a map | As expected
+I want to view all artworks in a complete list, so I can browse all artworks | When I am in the list view, I can see all artworks as a list | Minor bug: this view is only available to logged in users at present - to add to public view if time
+I want to view details of individual artworks, so that I can learn the name of the artist, the name of the artwork, when it was made and installed, and any other interesting information | When an artwork's push pin is selected, it creates an info window with further details | As expected
+I want to see a photo of the artwork, so I can decide whether it is worth visiting | The artwork info window includes an image of the artwork | As expected (although we did not have access to images of all artworks, so they have been given a placeholder image for now) 
+I want to know how long it will take me to navigate to the artwork | I can view my location on the map | Minor bug: the map has access to my location, but it is not visually represented - to fix if time
+I want to know how long it will take me to navigate to the artwork | I can wayfind/access directions between points on the map | "Nice to have" feature not implemented 
+I want to be able to search for an artwork, based on a keyword, so that I can refine the list of artworks I wish to see | When I enter a search term in the search bar, the map shows the artwork with that term in the title | As expected
+I want to know who made the application I am using, and why, so I can be assured of its integrity and use value | When I hit the about button, I am shown Tom and Alisa's name | As expected
+I want to be able to contact the makers of the app, so that I can congratulate them on their fine work | When I hit the about button, I am shown Tom and Alisa's contact details | Not implemented in submitted version due to privacy concerns
 break | break
-Map correctly shows current location |
-App restricts access to add/edit/delete routes if user is unauthenticated |
-Image loads when pin is clicked |
-Shows errors when admin forms aren't filled in correctly | 
+Map correctly shows current location | To fix
+App restricts access to add/edit/delete routes if user is unauthenticated | To fix
+Image loads when pin is clicked | As expected
+Shows errors when admin forms aren't filled in correctly | To fix
 
 ## User Testing - Development/Production
 
